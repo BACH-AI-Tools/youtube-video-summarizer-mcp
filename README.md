@@ -1,8 +1,8 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nabid-pf-youtube-video-summarizer-mcp-badge.png)](https://mseep.ai/app/nabid-pf-youtube-video-summarizer-mcp)
-
 # YouTube Video Summarizer MCP Server
 
 An MCP (Model Context Protocol) server that enables AI assistants to analyze and summarize YouTube videos by extracting captions, descriptions, and metadata.
+
+> **Original Project**: This is a fork of [youtube-video-summarizer-mcp](https://github.com/nabid-pf/youtube-video-summarizer-mcp) maintained by bachstudio.
 
 ## Features
 
@@ -17,7 +17,7 @@ An MCP (Model Context Protocol) server that enables AI assistants to analyze and
 
 To add the MCP server to your MCP client:
 
-1. Install the package globally: `npm install -g youtube-video-summarizer-mcp`
+1. Install the package globally: `npm install -g @bachstudio/youtube-video-summarizer-mcp`
 2. Add the following to your MCP client configuration file:
 
 ```json
@@ -52,13 +52,13 @@ Once integrated with your MCP client, you can use natural language to request vi
 ## Installation
 
 ```bash
-npm install -g youtube-video-summarizer-mcp
+npm install -g @bachstudio/youtube-video-summarizer-mcp
 ```
 
 ## Development
 
 ```bash
-git clone https://github.com/nabid-pf/youtube-video-summarizer-mcp.git
+git clone https://github.com/BACH-AI-Tools/youtube-video-summarizer-mcp.git
 cd youtube-video-summarizer-mcp
 npm install
 npm run build

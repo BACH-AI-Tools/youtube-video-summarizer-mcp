@@ -1,5 +1,5 @@
 {
-  "name": "youtube-video-summarizer-mcp",
+  "name": "@bachstudio/youtube-video-summarizer-mcp",
   "version": "1.8.5",
   "description": "An MCP server for YouTube video summarization",
   "license": "MIT",
@@ -32,13 +32,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nabid-pf/youtube-video-summarizer-mcp.git"
+    "url": "git+https://github.com/BACH-AI-Tools/youtube-video-summarizer-mcp.git"
   },
-  "author": "Nabid Salehin <nabid@peakflo.co>",
+  "author": "bachstudio",
   "bugs": {
-    "url": "https://github.com/nabid-pf/youtube-video-summarizer-mcp/issues"
+    "url": "https://github.com/BACH-AI-Tools/youtube-video-summarizer-mcp/issues"
   },
-  "homepage": "https://github.com/nabid-pf/youtube-video-summarizer-mcp#readme",
+  "homepage": "https://github.com/BACH-AI-Tools/youtube-video-summarizer-mcp#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.2",
     "axios": "^1.6.8",
